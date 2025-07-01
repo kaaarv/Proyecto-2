@@ -1,0 +1,33 @@
+$date
+	Wed Apr 10 08:37:57 2024
+$end
+
+$version
+	Synopsys VCS version R-2020.12-SP2_Full64
+$end
+
+$timescale
+	10ps
+$end
+
+$comment Csum: 1 a806e54cbb2a2dbe $end
+
+
+$scope module Clock_tb $end
+
+$scope module uut $end
+$var reg 1 ! CLK $end
+$upscope $end
+
+$upscope $end
+
+$enddefinitions $end
+
+#0
+$dumpvars
+1!
+$end
+#10000
+0!
+#20000
+1!
