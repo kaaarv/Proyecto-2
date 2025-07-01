@@ -1,0 +1,56 @@
+$date
+	Wed Apr 10 08:19:44 2024
+$end
+
+$version
+	Synopsys VCS version R-2020.12-SP2_Full64
+$end
+
+$timescale
+	1s
+$end
+
+$comment Csum: 1 045ac9fd6db55235 $end
+
+
+$scope module SumaC2_Testbench $end
+
+$scope module uut $end
+$var reg 8 ! a [7:0] $end
+$var reg 8 " b [7:0] $end
+$var reg 1 # ci $end
+$var reg 8 $ s [7:0] $end
+$var reg 1 % coutfin $end
+$var reg 1 & Cout_prima $end
+$var reg 1 ' des $end
+$upscope $end
+
+$upscope $end
+
+$enddefinitions $end
+
+#0
+$dumpvars
+x&
+x'
+bxxxxxxxx !
+bxxxxxxxx "
+bxxxxxxxx $
+x%
+x#
+$end
+#10
+b00001010 !
+b00000101 "
+0#
+0%
+0'
+b00001111 $
+0&
+#20
+b11111111 !
+b00000001 "
+1#
+1%
+b00000001 $
+1&

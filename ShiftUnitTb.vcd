@@ -1,0 +1,31 @@
+$date
+	Thu Apr 11 19:05:02 2024
+$end
+
+$version
+	Synopsys VCS version R-2020.12-SP2_Full64
+$end
+
+$timescale
+	1ns
+$end
+
+$comment Csum: 1 427753a427395003 $end
+
+
+$scope module ShiftUnit_Tb $end
+
+$scope module dut $end
+$var wire 64 ! input_data [63:0] $end
+$var wire 64 " output_data [63:0] $end
+$upscope $end
+
+$upscope $end
+
+$enddefinitions $end
+
+#0
+$dumpvars
+b0000000000000000000000000000000010101011110011011110111111111111 !
+b0000000000000000000000000000000101010111100110111101111111111110 "
+$end
